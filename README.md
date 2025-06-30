@@ -1,47 +1,53 @@
-**🍽️ Restaurant Management System
-**A Java-based console application that streamlines key restaurant operations such as order management, customer tracking, and billing. Designed with simplicity and functionality in mind, this system uses file-based persistence to ensure data is retained across sessions.
+🍽️ Restaurant Management System
 
-**🚀 Features
-****🏪 Restaurant & Customer Management**
-Store basic restaurant information (name, address, phone number)
+A Java-based console application designed to simplify restaurant operations such as order processing, customer tracking, and billing. The system offers an intuitive menu-driven interface and uses file-based persistence to maintain data across sessions.
 
-Add, update, delete, and view customer orders
+🚀 Features
 
-**📋 Interactive Food Menu
-**Display menu items with prices
+🏢 Restaurant & Customer Management
 
-Let customers select items, define quantities, and auto-calculate the total bill
+Store restaurant details: name, address, and phone number
 
-**📦 Order Processing
-**Handle multiple orders per session
+Add, update, delete, and display customer orders
 
-Generate itemized bills including total amount
+📋 Interactive Food Menu
 
-**💾 Data Persistence
-**Save order details (customer name, order number, bill) to a file (food.txt)
+Display list of food items with prices
 
-Automatically load data when the program restarts
+Allow item selection, specify quantities, and calculate total bill
 
-**🔍 Search & Reporting
-**Search orders by order number
+🧾 Order Processing
 
-View a summarized report of all recorded orders
+Manage multiple orders in one session
 
-**🛠️ Technologies Used
-**Java (Object-Oriented Programming, Inheritance, File I/O)
+Generate itemized bills with total cost
 
-java.util.Scanner (User input handling)
+💾 Data Persistence
 
-java.io (File read/write operations)
+Save order records (customer name, order number, bill) to food.txt
 
-**🧪 How to Run
-**Compile and run the test.java file (main driver class).
+Load existing order data on application startup
 
-Use the interactive console menu to:
+🔍 Search & Reports
+
+Search orders by order number
+
+View a summary report of all orders
+
+🛠️ Technologies Used
+
+Java (OOP, Inheritance, File I/O)
+
+java.util (for input using Scanner)
+
+java.io (for reading/writing files)
+
+▶️ How to Run
+
+Compile and execute the test.java file (main driver class)
+
+Use the console menu to:
 
 Add, update, or delete orders
 
-Search existing orders
-
-View summary reports
-
+Search orders or view order reports
