@@ -1,49 +1,47 @@
-Restaurant Management System
-A Java-based console application designed to manage restaurant operations, including order processing, customer data tracking, and billing. The system features a user-friendly menu, order management, and file-based data persistence for storing and retrieving records.
+🍽️ Restaurant Management System
+A Java-based console application that streamlines key restaurant operations such as order management, customer tracking, and billing. Designed with simplicity and functionality in mind, this system uses file-based persistence to ensure data is retained across sessions.
 
-Features
-Restaurant & Customer Management:
+🚀 Features
+🏪 Restaurant & Customer Management
+Store basic restaurant information (name, address, phone number)
 
-Store restaurant details (name, address, phone number).
+Add, update, delete, and view customer orders
 
-Add, update, delete, and display customer orders.
+📋 Interactive Food Menu
+Display menu items with prices
 
-Interactive Food Menu:
+Let customers select items, define quantities, and auto-calculate the total bill
 
-Displays available food items with prices.
+📦 Order Processing
+Handle multiple orders per session
 
-Allows users to select items, specify quantities, and calculate the total bill.
+Generate itemized bills including total amount
 
-Order Processing:
+💾 Data Persistence
+Save order details (customer name, order number, bill) to a file (food.txt)
 
-Supports multiple orders per session.
+Automatically load data when the program restarts
 
-Generates itemized bills with the total amount.
+🔍 Search & Reporting
+Search orders by order number
 
-Data Persistence:
+View a summarized report of all recorded orders
 
-Saves order details (customer name, order number, bill) to a file (food.txt).
+🛠️ Technologies Used
+Java (Object-Oriented Programming, Inheritance, File I/O)
 
-Loads existing data when the program restarts.
+java.util.Scanner (User input handling)
 
-Search & Reports:
+java.io (File read/write operations)
 
-Search orders by order number.
+🧪 How to Run
+Compile and run the test.java file (main driver class).
 
-View all orders in a summarized report.
+Use the interactive console menu to:
 
-Technologies Used
-Java (OOP, Inheritance, File I/O)
+Add, update, or delete orders
 
-Java.util (Scanner for input handling)
+Search existing orders
 
-Java.io (File reading/writing)
+View summary reports
 
-How to Run
-Compile and execute test.java (main driver class).
-
-Follow the console menu to:
-
-Add/update/delete orders.
-
-Search for orders or view reports.
